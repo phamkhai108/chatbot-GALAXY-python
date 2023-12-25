@@ -1,0 +1,109 @@
+{
+    "intents": [
+        {
+            "tag": "tam_biet",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "tam biet",
+                "toi ban roi",
+                "hen gap lai",
+                "chuc mot ngay tot lanh"
+            ],
+            "responses": [
+                "Tạm biệt!",
+                "Hẹn gặp lại!",
+                "Goodbye",
+                "Hẹn bạn lần sau",
+                "Chúc bạn một ngày tốt lành!",
+                "Chào tạm biệt! Nếu bạn có thêm câu hỏi trong tương lai hoặc cần sự trợ giúp, đừng ngần ngại quay lại. Chúc bạn một ngày tốt lành!",
+                "Hẹn gặp lại! Nếu bạn có bất kỳ câu hỏi hoặc cần giúp đỡ, đừng ngần ngại quay lại. Chúc bạn một ngày tốt lành!"
+            ]
+        },
+        {
+            "tag": "cam_on",
+            "patterns": [
+                "cam on",
+                "thank you",
+                "thanks",
+                "cam on ban",
+                "cam on ban"
+            ],
+            "responses": [
+                "Rất vui được giúp đỡ! Nếu bạn có thêm bất kỳ câu hỏi hoặc cần sự giúp đỡ khác, đừng ngần ngại hỏi. Chúc bạn một ngày tốt lành!",
+                "Không có gì, bạn rất hoan nghênh! Nếu bạn có thêm câu hỏi hoặc cần thêm sự giúp đỡ trong tương lai, đừng ngần ngại liên hệ. Chúc bạn một ngày tốt lành!",
+                "Không có gì, Chúc bạn một ngày tốt lành!"
+            ]
+        },
+        {
+            "tag": "xin_loi",
+            "patterns": [
+                "xin loi",
+                "sorry",
+                "xin loi ban",
+                "toi xin loi"
+            ],
+            "responses": [
+                "không sao cả!",
+                "đừng lo lắng!",
+                "không có gì, đừng lo!",
+                "không có vấn đề gì cả! Nếu bạn có thêm câu hỏi hoặc cần sự giúp đỡ, hãy thoải mái hỏi. Tôi ở đây để giúp đỡ!",
+                "không cần xin lỗi! Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ nào khác, đừng ngần ngại liên hệ. Tôi ở đây để giúp đỡ!"
+            ]
+        },
+        {
+            "tag": "hoi_thoi_gian",
+            "patterns": [
+                "may gio",
+                "may gio roi",
+                "bay gio la may gio",
+                "gio nay la may gio"
+            ],
+            "responses": [
+                "Xin lỗi, tôi không thể cung cấp thông tin về thời gian thực.",
+                "Xin lỗi, nhưng tôi không thể cung cấp thông tin về thời gian thực hiện tại vì tôi không có khả năng truy cập vào dữ liệu thời gian thực. Bạn có thể kiểm tra giờ trên thiết bị của mình hoặc sử dụng dịch vụ trực tuyến để biết giờ hiện tại.",
+                "Xin lỗi. Tôi không có khả năng cung cấp thông tin về thời gian thực. Hãy kiểm tra đồng hồ trên thiết bị của bạn để biết giờ hiện tại."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "ban hay giup toi",
+                "toi can",
+                "toi muon",
+                "giup toi"
+            ],
+            "responses": [
+                "Bạn cần giúp gì?",
+                "Tôi giúp gì được cho bạn?",
+                "Bạn có điều gì cần tôi giúp"
+            ]
+        },
+        {
+            "tag": "phan_loai_cau",
+            "patterns": [
+                "phan loai van ban",
+                "phan loai cau"
+            ],
+            "responses": [
+                "n",
+                "a",
+                "v"
+            ]
+        },
+        {
+            "tag": "tong_2so_python",
+            "patterns": [
+                "viet doan ma tinh tong 2 so nguyen python",
+                "tinh tong 2 so nguyen bang python",
+                "python tong 2 so nguyen",
+                "ma python tong 2 so"
+            ],
+            "responses": [
+                "sau đây là đoạn mã tính tổng 2 số nguyên bằng python\nso1 = int(input('Nhập số nguyên thứ nhất: '))\nso2 = int(input('Nhập số nguyên thứ hai: '))\ntong = so1 + so2\nprint(f'Tổng của {so1} và {so2} là: {tong}')",
+                "sau đây là đoạn mã tính tổng 2 số nguyên bằng python\n\tso1 = int(input('Nhập số nguyên A: '))\n\tso2 = int(input('Nhập số nguyên B: '))\n\ttong = so1 + so2\n\tprint(f'Tổng của {so1} và {so2} là: {tong}')"
+            ]
+        }
+        
+    ]
+}

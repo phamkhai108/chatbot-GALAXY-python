@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "tag": "weather",
+            "patterns": [
+              "thời tiết",
+              "Thời tiết hôm nay thế nào?",
+              "Dự báo thời tiết cho hôm nay",
+              "Nóng bao nhiêu độ hôm nay?",
+              "Cần một chiếc áo ấm không?",
+              "Nắng hay mưa hôm nay?"
+            ],
+            "responses": [
+              "Dữ liệu thời tiết đang được xử lý, vui lòng đợi một chút.",
+              "Hệ thống đang tính toán dữ liệu thời tiết, bạn có thể kiểm tra lại sau ít phút.",
+              "Chúng tôi đang cập nhật dữ liệu thời tiết cho bạn, vui lòng kiên nhẫn.",
+              "Các thuật toán dự báo thời tiết đang chạy",
+              "Đang có quá trình tính toán thời tiết, bạn có thể quay lại sau để biết thông tin chi tiết hơn."
+            ]
+         }
+    ]
+}
