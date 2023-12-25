@@ -42,12 +42,6 @@ waiting_for_summary = False
 
 def chat(user_input):
     global waiting_for_summary
-    # Nếu đang trong trạng thái chờ tóm tắt
-    if waiting_for_summary:
-        summary = tom_tat_van_ban(user_input)
-        waiting_for_summary = False
-        return summary
-
     # Xử lý input từ người dùng
     processed_input = unidecode(user_input).lower()
     processed_input = normalize_text(processed_input, dictions)
@@ -65,6 +59,16 @@ def chat(user_input):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
+    # Nếu đang trong trạng thái chờ tóm tắt
+    if waiting_for_summary:
+        if prob.item() > 0.95:
+            waiting_for_summary = False
+            for intent in intents['intents']:
+                if tag == intent["tag"]:
+                    return random.choice(intent['responses'])
+        summary = tom_tat_van_ban(user_input)
+        return summary
+
     # Nếu xác suất dự đoán cao hơn ngưỡng (0.75), chọn phản hồi tương ứng
     if prob.item() > 0.75:
         for intent in intents['intents']:
@@ -78,18 +82,20 @@ def chat(user_input):
                     return random.choice(intent['responses'])
     else:
             # Ngay lập tức chọn một phản hồi ngẫu nhiên từ intent có tag là "khong_hieu"
-            intent = next((i for i in intents['intents'] if i["tag"] == "khong_hieu"), None)
-            if intent:
-                return random.choice(intent['responses'])
-            else:
-                return "I do not understand..."
+        intent = next((i for i in intents['intents'] if i["tag"] == "khong_hieu"), None)
+        if intent:
+            return random.choice(intent['responses'])
+        else:
+            return "I do not understand..."
 
 
-# print("Let's chat! (type 'quit' to exit)")
-# while True:
-#     user_input = input("You: ")
-#     if user_input.lower() in ["quit"]:
-#         print(f"{bot_name}: Goodbye!")
-#         break
-#     response = chat(user_input)
-#     print(f"{bot_name}: {response}")
+
+        
+print("Let's chat! (type 'quit' to exit)")
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == 'quit':
+        print(f"{bot_name}: Goodbye!")
+        break
+    response = chat(user_input)
+    print(f"{bot_name}: {response}")

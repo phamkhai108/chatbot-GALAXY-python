@@ -76,13 +76,13 @@ Y_train = np.array(Y_train)
 #  Số lượng lần duyện qua toàn bộ tập tin
 num_epochs = 1000
 # Số lượng mẫu dữ liệu được sử dụng trong mỗi lần cập nhật
-batch_size = 8
+batch_size = 128
 # Tốc độ học của mô hình
 learning_rate = 0.001
 # Kích thước vecto đầu vào
 input_size = len(X_train[0])
 # Kích thước lớp ẩn trong neural
-hidden_size = 8
+hidden_size = 128
 # Số lượng đầu ra tương ứng với tags
 output_size = len(tags)
 
