@@ -7,26 +7,27 @@
                 "dai hoc humg",
                 "truong dai hoc mo dia chat",
                 "truong dai hoc humg",
-                "truong dai hoc humg ha noi"
+                "truong dai hoc humg ha noi",
+                "humg"
             ],
             "responses": [
-                "Bạn cần tóm tắt văn bản phải không? Hãy đưa nó vào đây.",
-                "Hãy nêu văn bản của bạn vào đây.",
-                "Nhập văn bản của bạn, tôi sẽ giúp bạn tóm tắt."
+                "Trường Đại học Mỏ - Địa chất (HUMG) là một trường đại học đa ngành hàng đầu tại Việt Nam. Trường được thành lập vào năm 1956, với tên gọi ban đầu là Trường Đại học Mỏ - Kỹ thuật. Trải qua hơn 60 năm xây dựng và phát triển, trường đã đào tạo ra hàng nghìn kỹ sư, cử nhân, thạc sĩ, tiến sĩ cho đất nước.\nTrường HUMG có trụ sở chính tại Hà Nội và một cơ sở đào tạo tại Quảng Ninh. Trường hiện có 11 khoa và 15 trung tâm nghiên cứu, đào tạo.",
+                "Trường Đại học Mỏ - Địa chất là một trường đại học đa ngành hàng đầu tại Việt Nam. Trường đào tạo các ngành học về kỹ thuật, công nghệ, kinh tế, môi trường. Trường có trụ sở chính tại Hà Nội và một cơ sở đào tạo tại Quảng Ninh.\nTrường Đại học Mỏ - Địa chất được thành lập vào năm 1956, với tên gọi ban đầu là Trường Đại học Mỏ - Kỹ thuật. Trải qua hơn 60 năm xây dựng và phát triển, trường đã đào tạo ra hàng nghìn kỹ sư, cử nhân, thạc sĩ, tiến sĩ cho đất nước."
             ]
         },
         {
-            "tag": "tom_tat_sau",
+            "tag": "humg-daotao",
             "patterns": [
-                "ban da tom tat chua vay",
-                "van ban tom tat day u",
-                "tom tat chua",
-                "tom tat van ban toi da nhap di"
+                "dai hoc mo dia chat dao tao nhung nghanh nao",
+                "dai hoc humg dao tao nhung nghanh nao",
+                "humg dao tao nhung nghanh nao",
+                "mo dia chat dao tao nhung nghanh nao",
+                "mo dia chat co nhung nghanh gi",
+                "truong dai hoc humg co nhung nghanh gi"
             ],
             "responses": [
-                "Tôi đã tóm tắt văn bản bạn đưa ra, bạn có thể lướt lại để xem",
-                "Văn bản tôi đã tóm tắt phía trên rồi! Nếu cần thêm thông tin gì hãy liên hệ với tôi",
-                "Văn bản của bạn đã được tóm tắt."
+                "Các ngành đào tạo của Trường Đại học Mỏ - Địa chất:\n\tKỹ thuật địa chất\n\tKỹ thuật dầu khí\n\tKỹ thuật cơ khí\n\tKỹ thuật điện - điện tử\n\tCông nghệ thông tin\n\tKỹ thuật trắc địa - bản đồ\n\tKỹ thuật xây dựng\n\tKỹ thuật môi trường\n\tKỹ thuật khai thác mỏ\n\tKỹ thuật chế biến khoáng sản\n\tKỹ thuật vật liệu\n\tKỹ thuật cơ điện\n\tKỹ thuật điện tử công nghiệp\n\tKỹ thuật tự động hóa\n\tKỹ thuật điều khiển tự động\n\tKỹ thuật điện tử viễn thông\n\tKỹ thuật y sinh\n\tKỹ thuật an toàn\n\tKỹ thuật phòng cháy chữa cháy\n\n\nQuản trị kinh doanh\n\tTài chính - ngân hàng\n\tKế toán - kiểm toán\n\tQuản trị nhân lực\n\tMarketing\n\tKinh tế quốc tế\n\n\nĐịa chất học\n\tHóa học\n\tToán ứng dụng\n\tVật lý ứng dụng\n\tThủy văn\n\tKhí tượng thủy văn\n\tĐịa lý tự nhiên\n\tĐịa lý kinh tế - xã hội\n\n\nLuật\n\tLuật kinh tế\n\n\nSư phạm kỹ thuật\n\tSư phạm tin học",
+                "Để biết rõ hơn về các nghành đào tạo của trường đại học Mỏ-Địa Chât hãy truy cập trang web của đại học mỏ địa chât.\nĐịa chỉ https://humg.edu.vn/Pages/home.aspx" 
             ]
         }
     ]
