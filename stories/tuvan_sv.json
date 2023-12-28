@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "thongtinchungchosv",
+            "patterns": [
+                "thong tin sinh vien dai hoc mo dia chat duoc cap nhat o dau",
+                "thong tin sinh vien dai hoc humg dang tai o dau",
+                "dia chi facebook cua cong tac sinh vien humg",
+                "dia chi facebook cua cong tac sinh vien dai hoc mo dia chat"
+            ],
+            "responses": [
+                "Thông tin được đăng tải chung cho sinh viên được đăng tải thường xuyên tại trang 'Tư Vấn Công Tác Sinh Viên Humg' ở trên mạng xã hội facebook\n\t Đường link dẫn đến: https://www.facebook.com/TuvancongtacsinhvienHUMG. \nNếu cần thêm thông tin hãy hỏi tôi."
+            ]
+        },
+        {
+            "tag": "thongbaooutlook",
+            "patterns": [
+                "ngoai thong bao tren facebook sinh vien con nhan duoc thong bao o dau",
+                "ngoai thong bao tren thi con thong bao noi nao khac nua khong"
+            ],
+            "responses": [
+                "Ngoai thông báo trên facebook trường đại học còn thông báo ở trên thư OutLook cho sinh viên. Sinh viên của trường cũng có thể nhận được thông báo từ các thầy cô giảng dạy.",
+                "Ngoài thông báo trên facebook trường đại học mỏ địa chất còn thông báo tới sinh viên thông qua thư OutLook mà mỗi sinh viên trong trường đều được cung cấp một tài khoảng riêng để sử dụng."
+            ]
+        },
+        {
+            "tag": "tacdungoutlook",
+            "patterns": [
+                "thu outlook duoc nha truong cap co tac dung gi",
+                "loi ich khi su dung email do nha truong cap",
+                "lam duoc gi voi email cua nha truong cap cho sinh vien",
+                "email truong dai hoc mo dia chat cap cho sinh vien co tac dung gi"
+            ],
+            "responses": [
+                "Với email của sinh viên được trường đại học mỏ chất cung cấp cho sinh viên sẽ có những lợi ích sau:\n\t Thể hiện danh tính sinh viên: Email đuôi student.edu.vn giúp sinh viên thể hiện danh tính sinh viên của mình một cách rõ ràng và uy tín. Điều này rất quan trọng khi sinh viên cần sử dụng email cho các mục đích học tập, nghiên cứu hoặc làm việc.\n\t Nhận thông tin từ nhà trường: Email đuôi student.edu.vn là kênh thông tin chính thức của nhà trường gửi đến sinh viên. Sinh viên có thể nhận được thông báo về lịch học, lịch thi, điểm thi, kết quả học tập, các hoạt động ngoại khóa,... thông qua email này.\n\t Làm việc nhóm và cộng tác: Email đuôi student.edu.vn là công cụ hữu ích giúp sinh viên làm việc nhóm và cộng tác hiệu quả. Sinh viên có thể sử dụng email này để trao đổi thông tin, chia sẻ tài liệu,... với các bạn cùng lớp, giảng viên hoặc các thành viên khác trong nhóm.\n\t Truy cập các dịch vụ miễn phí: Sinh viên có thể truy cập các dịch vụ miễn phí của Google, Microsoft,... bằng email đuôi student.edu.vn. Ví dụ như:\n\t\tGoogle Drive: Truy cập dung lượng lưu trữ đám mây lên đến 100GB.\n\t\tOffice 365: Sử dụng bộ ứng dụng văn phòng trực tuyến của Microsoft.\n\t\tGitHub: Sử dụng dịch vụ lưu trữ mã nguồn."
+            ]
+        }
+    ]
+}

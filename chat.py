@@ -67,10 +67,11 @@ def chat(user_input):
                 if tag == intent["tag"]:
                     return random.choice(intent['responses'])
         summary = tom_tat_van_ban(user_input)
+        waiting_for_summary = False
         return summary
 
     # Nếu xác suất dự đoán cao hơn ngưỡng (0.75), chọn phản hồi tương ứng
-    if prob.item() > 0.75:
+    if prob.item() > 0.95:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 if tag == "tom_tat": 
@@ -89,13 +90,11 @@ def chat(user_input):
             return "I do not understand..."
 
 
-
-        
-print("Let's chat! (type 'quit' to exit)")
-while True:
-    user_input = input("You: ")
-    if user_input.lower() == 'quit':
-        print(f"{bot_name}: Goodbye!")
-        break
-    response = chat(user_input)
-    print(f"{bot_name}: {response}")
+# print("Let's chat! (type 'quit' to exit)")
+# while True:
+#     user_input = input("You: ")
+#     if user_input.lower() == 'quit':
+#         print(f"{bot_name}: Goodbye!")
+#         break
+#     response = chat(user_input)
+#     print(f"{bot_name}: {response}")

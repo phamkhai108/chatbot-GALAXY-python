@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tag": "tieuchi_tuyensinh",
+            "patterns": [
+                "tieu chi tuyen sinh dai hoc chinh quy nam 2023 cua truong dai hoc mo dia chat",
+                "tieu chi tuyen sinh dai hoc chinh quy nam 2023 cua mo dia chat",
+                "tieu chi tuyen sinh dai hoc chinh quy nam 2023 cua humg"
+            ],
+            "responses": [
+                "Tiêu chí tuyển sinh đại học chính quy năm 2023 của Trường Đại học Mỏ - Địa chất\n\nPhương thức 1: Xét tuyển dựa vào kết quả thi tốt nghiệp THPT năm 2023.\n\tĐiểm xét tuyển là tổng điểm của 3 môn thi theo tổ hợp xét tuyển của trường, không nhân hệ số.\n\nPhương thức 2: Xét tuyển theo học bạ\n\tĐiểm xét tuyển là tổng điểm trung bình các môn học theo khối thi của 3 học kỳ THPT: lớp 11 và kỳ I lớp 12 đạt từ 18 điểm trở lên.\n\nPhương thức 3: Xét tuyển thí sinh có chứng chỉ quốc tế kết hợp với điểm thi tốt nghiệp THPT\n\tĐiểm xét tuyển là tổng điểm của 2 môn thi theo tổ hợp xét tuyển của trường trừ môn thi ngoại ngữ và điểm chứng chỉ quốc tế.\n\nChính sách ưu tiên:\n\tThí sinh đoạt giải quốc gia, quốc tế hoặc thí sinh thuộc các đối tượng ưu tiên theo quy định của Bộ Giáo dục và Đào tạo.\n\tThí sinh có chứng nhận về năng lực ngoại ngữ quốc tế từ bậc 4 trở lên.\n\tThí sinh có chứng chỉ IELTS 5.5 trở lên, TOEFL ITP 550 trở lên hoặc TOEFL iBT 79 trở lên.\n\nThí sinh có thể đăng ký xét tuyển theo một hoặc nhiều phương thức. Trường sẽ xét tuyển theo thứ tự ưu tiên các phương thức xét tuyển từ cao xuống thấp cho đến khi đủ chỉ tiêu."
+            ]
+        },
+        {
+            "tag": "diemchuan2023",
+            "patterns": [
+                "diem chuan cua humg nam 2023",
+                "diem chuan dai hoc mo dia chat nam 2023",
+                "diem chuan tuyen sinh nam 2023 cua dai hoc mo dia chat",
+                "diem chuan nam 2023 cua mo dia chat la bao nhieu",
+                "diem chuan cac nganh nam 2023 cua humg",
+                "diem chuan cac nganh nam 2023 cua mo dia chat"
+            ],
+            "responses": [
+                "Trường đại học mỏ địa chất có điểm chuẩn như sau:\nNgành\t\t\t\tMã ngành\tTổ hợp\t\t\t\t\tĐiểm chuẩn\nKỹ thuật điều khiển và tự động hóa\t7520216\tA00, A01\t\t\t\t\t50\nCông nghệ thông tin\t\t\t7480201\tA00, A01\t\t\t\t\t50\nQuản lý dữ liệu khoa học trái đất\t7440229\tA00, A01, D07, A04\t19.5\nCông nghệ kỹ thuật hóa học\t7510401\tA00, A06, B00, D07\t\t\t\t20\nKhai thác mỏ\t\t\t\t7510101\tA00, A01, D07, A04\t\t\t20\nĐịa chất học\t\t\t\t7510201\tA00, A01, D07, A04\t\t\t20\nĐịa chất công trình\t\t\t7510301\tA00, A01, D07, A04\t\t\t20\nĐịa chất dầu khí\t\t\t7510501\tA00, A01, D07, A04\t\t\t20\nĐịa chất môi trường\t\t\t7510601\tA00, A01, D07, A04\t\t\t20\nQuản trị kinh doanh\t\t\t7340101\tA00, A01, D01\t\t\t26.5\nTài chính - Ngân hàng\t\t\t7340201\tA00, A01, D01\t\t\t26.5\nKế toán\t\t\t\t\t7340301\tA00, A01, D01\t\t\t26.5\nKinh tế\t\t\t\t\t7310101\tA00, A01, D01\t\t\t26.5\nQuản trị nhân lực\t\t\t7310201\tA00, A01, D01\t\t\t26.5\nLuật\t\t\t\t\t\t7380101\tA00, A01, D01\t\t\t26.5\nXã hội học\t\t\t\t7330101\tA00, A01, D01\t\t\t26.5\nTriết học\t\t\t\t\t7320101\tA00, A01, D01\t\t\t26.5"
+            ]
+        }
+    ]
+}

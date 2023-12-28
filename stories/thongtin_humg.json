@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "thanhlaptruong",
+            "patterns": [
+                "humg duoc thanh lap nam nao",
+                "nam thanh lap cua mo dia chat",
+                "humg co tu luc nao"
+            ],
+            "responses": [
+                "Trường Đại học Mỏ - Địa chất được thành lập vào ngày 8 tháng 8 năm 1966, trên cơ sở Khoa Mỏ - Địa chất của Trường Đại học Bách khoa.",
+                "Ngày 31 tháng 8 năm 1966, tại làng Bút Tháp thuộc xã Đình Tổ, huyện Thuận Thành, tỉnh Hà Bắc (nay là tỉnh Bắc Ninh) đã diễn ra lễ công bố Quyết định của Thủ tướng Chính phủ về việc thành lập trường. 15 tháng 11 năm 1966, Trường chính thức khai giảng khóa học đầu tiên. Kể từ đó, ngày 15 tháng 11 hàng năm được lấy làm Ngày Truyền thống của Trường."
+            ]
+        },
+        {
+            "tag": "vịTritruong",
+            "patterns": [
+                "dai hoc humg nam o dau",
+                "dai hoc mo dia chat nam o dau",
+                "vi tri cua truong dai hoc humg",
+                "vi tri cua truong mo dia chat"
+            ],
+            "responses": [
+                "Trường Đại học Mỏ - Địa chất có 2 cơ sở chính, bao gồm:\n\t Cở sở 1: Số 18 Phố Viên - Phường Đức Thắng - Q. Bắc Từ Liêm - Hà Nội\n\t Cơ sở 2: Số 1, đường Hoàng Văn Thụ, phường Quang Trung, thành phố Thái Nguyên."
+            ]
+        },
+        {
+            "tag": "lienhe",
+            "patterns": [
+                "lien he voi truong dai hoc humg",
+                "lien he voi truong dai hoc mo dia chat",
+                "thong tin lien he voi dai hoc mo dia chat"
+            ],
+            "responses": [
+                " Bạn có thể liên hệ với trường đại học mỏ địa chất qua:\n\t Điện thoại: (+84-24) 3838 9633 | Email: hanhchinhtonghop@humg.edu.vn"
+            ]
+        }
+    ]
+}

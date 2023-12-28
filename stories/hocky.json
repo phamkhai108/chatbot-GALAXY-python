@@ -1,0 +1,41 @@
+{
+    "intents": [
+        {
+            "tag": "sohocky",
+            "patterns": [
+                "mot nam co bao nhieu hoc ky",
+                "truong dai hoc mo dia chat mot nam co bao nhieu hoc ky",
+                "truong dai hoc humg có bao nhieu hoc ky",
+                "so luong hoc ky trong 1 nam cua humg",
+                "so luong hoc ky trong 1 nam cua dai hoc mo dia chat"
+            ],
+            "responses": [
+                "Trường đại học Mỏ Địa Chất một năm có 3 học kỳ, trong đó có 2 học kỳ chính và 1 học kỳ phu",
+                "Trường đại học Mỏ Địa Chất một năm có 3 học ký học, 2 học kỳ chính và 1 học ký phụ",
+                "Trường đại học Mỏ Địa Chất một năm có 3 học ký học, 2 học kỳ chính và 1 học ký phụ. Trong đó thời gian tham gia học tập của mỗi học kỳ chính là 4 tháng, phụ là 2 tháng"
+            ]
+        },
+        {
+            "tag": "hockychinh",
+            "patterns": [
+                "hoc ky chinh bat dau khi nao",
+                "thoi gian hoc cua hoc ky chinh",
+                "thoi gian hoc tap cua hoc ky chinh"
+            ],
+            "responses": [
+                "Thời gian học tập của học kỳ chính là 4 tháng/1 học kỳ.\n\tHọc kỳ 1 bắt đầu vào tháng 9 và kết thúc vào tháng 1 năm sau.\n\tHọc kỳ 2 bắt đầu từ tháng 1 đến tháng 5."
+            ]
+        },
+        {
+            "tag": "hockyphu",
+            "patterns": [
+                "thoi gian hoc ky phu",
+                "thoi gian tham gia hoc tap cua hoc ky phu",
+                "thoi gian bat dau hoc ky phu"
+            ],
+            "responses": [
+                "Thời gian học tập của học kỳ phụ là 2 tháng. Bắt đâu từ lúc kết thúc học kì chính thứ 2 tuần và đến giữa tháng 8 trong năm."
+            ]
+        }
+    ]
+}
